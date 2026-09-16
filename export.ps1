@@ -1,0 +1,1 @@
+cmd /c "docker compose exec -T db mysqldump --no-tablespaces -u exampleuser -pexamplepass exampledb > init.sql"
